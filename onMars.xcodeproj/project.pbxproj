@@ -19,6 +19,8 @@
 		1700413125FA3A5E00E25418 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410225FA3A5A00E25418 /* Persistence.swift */; };
 		1700413225FA3A5E00E25418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1700410325FA3A5E00E25418 /* Assets.xcassets */; };
 		1700413325FA3A5E00E25418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1700410325FA3A5E00E25418 /* Assets.xcassets */; };
+		1700415C25FA417D00E25418 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700415B25FA417D00E25418 /* GameScene.swift */; };
+		1700415D25FA417D00E25418 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700415B25FA417D00E25418 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		1700412325FA3A5E00E25418 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1700412725FA3A5E00E25418 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1700412925FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1700415B25FA417D00E25418 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +107,10 @@
 		170040FD25FA3A5A00E25418 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1700415625FA3BE900E25418 /* Sounds */,
 				1700410025FA3A5A00E25418 /* onMarsApp.swift */,
 				1700410125FA3A5A00E25418 /* ContentView.swift */,
+				1700415B25FA417D00E25418 /* GameScene.swift */,
 				1700410225FA3A5A00E25418 /* Persistence.swift */,
 				1700410325FA3A5E00E25418 /* Assets.xcassets */,
 				170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */,
@@ -157,6 +162,13 @@
 				1700412925FA3A5E00E25418 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1700415625FA3BE900E25418 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1700415C25FA417D00E25418 /* GameScene.swift in Sources */,
 				1700412A25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */,
 				1700413025FA3A5E00E25418 /* Persistence.swift in Sources */,
 				1700412C25FA3A5E00E25418 /* onMarsApp.swift in Sources */,
@@ -327,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1700415D25FA417D00E25418 /* GameScene.swift in Sources */,
 				1700412B25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */,
 				1700413125FA3A5E00E25418 /* Persistence.swift in Sources */,
 				1700412D25FA3A5E00E25418 /* onMarsApp.swift in Sources */,
@@ -417,6 +431,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -470,6 +486,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
