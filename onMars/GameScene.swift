@@ -20,7 +20,7 @@ class GameScene: SKScene {
 
 extension GameScene {
     func initScene(){
-        let background = SKSpriteNode(color: UIColor(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)), size: CGSize(width: screen.width, height: screen.height))
+        let background = SKSpriteNode(color: UIColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), size: CGSize(width: screen.width, height: screen.height))
         background.anchorPoint = CGPoint.zero
         background.position = CGPoint.zero
         addChild(background)
