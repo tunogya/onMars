@@ -7,82 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170DA0C4261062DE00897550 /* onMarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0C3261062DE00897550 /* onMarsApp.swift */; };
-		170DA0C6261062DE00897550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0C5261062DE00897550 /* ContentView.swift */; };
-		170DA0C8261062E000897550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0C7261062E000897550 /* Assets.xcassets */; };
-		170DA0CB261062E000897550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0CA261062E000897550 /* Preview Assets.xcassets */; };
-		170DA0CD261062E000897550 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0CC261062E000897550 /* Persistence.swift */; };
-		170DA0D0261062E000897550 /* onMars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0CE261062E000897550 /* onMars.xcdatamodeld */; };
-		170DA0DB261062E100897550 /* onMarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0DA261062E100897550 /* onMarsTests.swift */; };
-		170DA0E6261062E100897550 /* onMarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0E5261062E100897550 /* onMarsUITests.swift */; };
-		170DA0F52610632100897550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0F42610632100897550 /* Assets.xcassets */; };
+		170DA10D26106B4E00897550 /* onMarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA10C26106B4E00897550 /* onMarsApp.swift */; };
+		170DA10F26106B4E00897550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA10E26106B4E00897550 /* ContentView.swift */; };
+		170DA11426106B5100897550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA11326106B5100897550 /* Preview Assets.xcassets */; };
+		170DA11626106B5100897550 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA11526106B5100897550 /* Persistence.swift */; };
+		170DA11926106B5100897550 /* onMars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170DA11726106B5100897550 /* onMars.xcdatamodeld */; };
+		170DA14026106BBA00897550 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700415B25FA417D00E25418 /* GameScene.swift */; };
+		170DA14A26106C7400897550 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E7F9CD26103216004BD40A /* MotionManager.swift */; };
+		170DA15E26106D2900897550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0F42610632100897550 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		170DA0D7261062E100897550 /* PBXContainerItemProxy */ = {
+		170DA12026106B5100897550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 170040F925FA3A5A00E25418 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 170DA0C0261062DE00897550;
+			remoteGlobalIDString = 170DA10926106B4E00897550;
 			remoteInfo = onMars;
 		};
-		170DA0E2261062E100897550 /* PBXContainerItemProxy */ = {
+		170DA12B26106B5100897550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 170040F925FA3A5A00E25418 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 170DA0C0261062DE00897550;
+			remoteGlobalIDString = 170DA10926106B4E00897550;
 			remoteInfo = onMars;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		170040FF25FA3A5A00E25418 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		1700410025FA3A5A00E25418 /* onMarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsApp.swift; sourceTree = "<group>"; };
-		1700410125FA3A5A00E25418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1700410225FA3A5A00E25418 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1700410B25FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1700411225FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1700411325FA3A5E00E25418 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		1700411C25FA3A5E00E25418 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		1700411E25FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1700412725FA3A5E00E25418 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		1700412925FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1700415B25FA417D00E25418 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		170DA0B62610605600897550 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		170DA0C1261062DE00897550 /* onMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		170DA0C3261062DE00897550 /* onMarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsApp.swift; sourceTree = "<group>"; };
-		170DA0C5261062DE00897550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		170DA0C7261062E000897550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		170DA0CA261062E000897550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		170DA0CC261062E000897550 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		170DA0CF261062E000897550 /* onMars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = onMars.xcdatamodel; sourceTree = "<group>"; };
-		170DA0D1261062E000897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		170DA0D6261062E100897550 /* onMarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		170DA0DA261062E100897550 /* onMarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsTests.swift; sourceTree = "<group>"; };
-		170DA0DC261062E100897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		170DA0E1261062E100897550 /* onMarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		170DA0E5261062E100897550 /* onMarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsUITests.swift; sourceTree = "<group>"; };
-		170DA0E7261062E100897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		170DA0F42610632100897550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170DA10A26106B4E00897550 /* onMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DA10C26106B4E00897550 /* onMarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsApp.swift; sourceTree = "<group>"; };
+		170DA10E26106B4E00897550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		170DA11326106B5100897550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		170DA11526106B5100897550 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		170DA11826106B5100897550 /* onMars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = onMars.xcdatamodel; sourceTree = "<group>"; };
+		170DA11A26106B5100897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DA11F26106B5100897550 /* onMarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DA12A26106B5100897550 /* onMarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E7F9CD26103216004BD40A /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		170DA0BE261062DE00897550 /* Frameworks */ = {
+		170DA10726106B4E00897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0D3261062E100897550 /* Frameworks */ = {
+		170DA11C26106B5100897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0DE261062E100897550 /* Frameworks */ = {
+		170DA12726106B5100897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,77 +77,19 @@
 		170040F825FA3A5A00E25418 = {
 			isa = PBXGroup;
 			children = (
-				170040FD25FA3A5A00E25418 /* Shared */,
-				1700410A25FA3A5E00E25418 /* iOS */,
-				1700411125FA3A5E00E25418 /* macOS */,
-				1700411B25FA3A5E00E25418 /* Tests iOS */,
-				1700412625FA3A5E00E25418 /* Tests macOS */,
-				170DA0C2261062DE00897550 /* onMars */,
-				170DA0D9261062E100897550 /* onMarsTests */,
-				170DA0E4261062E100897550 /* onMarsUITests */,
+				170DA10B26106B4E00897550 /* onMars */,
 				1700410925FA3A5E00E25418 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		170040FD25FA3A5A00E25418 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				170DA0F42610632100897550 /* Assets.xcassets */,
-				17E7F9CC26103200004BD40A /* Controller */,
-				1700415625FA3BE900E25418 /* Sounds */,
-				1700410025FA3A5A00E25418 /* onMarsApp.swift */,
-				1700410125FA3A5A00E25418 /* ContentView.swift */,
-				1700415B25FA417D00E25418 /* GameScene.swift */,
-				1700410225FA3A5A00E25418 /* Persistence.swift */,
-				170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */,
-				170DA0B62610605600897550 /* Launch Screen.storyboard */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		1700410925FA3A5E00E25418 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				170DA0C1261062DE00897550 /* onMars.app */,
-				170DA0D6261062E100897550 /* onMarsTests.xctest */,
-				170DA0E1261062E100897550 /* onMarsUITests.xctest */,
+				170DA10A26106B4E00897550 /* onMars.app */,
+				170DA11F26106B5100897550 /* onMarsTests.xctest */,
+				170DA12A26106B5100897550 /* onMarsUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1700410A25FA3A5E00E25418 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1700410B25FA3A5E00E25418 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		1700411125FA3A5E00E25418 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1700411225FA3A5E00E25418 /* Info.plist */,
-				1700411325FA3A5E00E25418 /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		1700411B25FA3A5E00E25418 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1700411C25FA3A5E00E25418 /* Tests_iOS.swift */,
-				1700411E25FA3A5E00E25418 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		1700412625FA3A5E00E25418 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1700412725FA3A5E00E25418 /* Tests_macOS.swift */,
-				1700412925FA3A5E00E25418 /* Info.plist */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 		1700415625FA3BE900E25418 /* Sounds */ = {
@@ -175,44 +99,29 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		170DA0C2261062DE00897550 /* onMars */ = {
+		170DA10B26106B4E00897550 /* onMars */ = {
 			isa = PBXGroup;
 			children = (
-				170DA0C3261062DE00897550 /* onMarsApp.swift */,
-				170DA0C5261062DE00897550 /* ContentView.swift */,
-				170DA0C7261062E000897550 /* Assets.xcassets */,
-				170DA0CC261062E000897550 /* Persistence.swift */,
-				170DA0D1261062E000897550 /* Info.plist */,
-				170DA0CE261062E000897550 /* onMars.xcdatamodeld */,
-				170DA0C9261062E000897550 /* Preview Content */,
+				1700415625FA3BE900E25418 /* Sounds */,
+				17E7F9CC26103200004BD40A /* Controller */,
+				170DA0F42610632100897550 /* Assets.xcassets */,
+				1700415B25FA417D00E25418 /* GameScene.swift */,
+				170DA10C26106B4E00897550 /* onMarsApp.swift */,
+				170DA10E26106B4E00897550 /* ContentView.swift */,
+				170DA11526106B5100897550 /* Persistence.swift */,
+				170DA11A26106B5100897550 /* Info.plist */,
+				170DA11726106B5100897550 /* onMars.xcdatamodeld */,
+				170DA11226106B5100897550 /* Preview Content */,
 			);
 			path = onMars;
 			sourceTree = "<group>";
 		};
-		170DA0C9261062E000897550 /* Preview Content */ = {
+		170DA11226106B5100897550 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				170DA0CA261062E000897550 /* Preview Assets.xcassets */,
+				170DA11326106B5100897550 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		170DA0D9261062E100897550 /* onMarsTests */ = {
-			isa = PBXGroup;
-			children = (
-				170DA0DA261062E100897550 /* onMarsTests.swift */,
-				170DA0DC261062E100897550 /* Info.plist */,
-			);
-			path = onMarsTests;
-			sourceTree = "<group>";
-		};
-		170DA0E4261062E100897550 /* onMarsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				170DA0E5261062E100897550 /* onMarsUITests.swift */,
-				170DA0E7261062E100897550 /* Info.plist */,
-			);
-			path = onMarsUITests;
 			sourceTree = "<group>";
 		};
 		17E7F9CC26103200004BD40A /* Controller */ = {
@@ -226,13 +135,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		170DA0C0261062DE00897550 /* onMars */ = {
+		170DA10926106B4E00897550 /* onMars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170DA0E8261062E100897550 /* Build configuration list for PBXNativeTarget "onMars" */;
+			buildConfigurationList = 170DA13126106B5100897550 /* Build configuration list for PBXNativeTarget "onMars" */;
 			buildPhases = (
-				170DA0BD261062DE00897550 /* Sources */,
-				170DA0BE261062DE00897550 /* Frameworks */,
-				170DA0BF261062DE00897550 /* Resources */,
+				170DA10626106B4E00897550 /* Sources */,
+				170DA10726106B4E00897550 /* Frameworks */,
+				170DA10826106B4E00897550 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -240,43 +149,43 @@
 			);
 			name = onMars;
 			productName = onMars;
-			productReference = 170DA0C1261062DE00897550 /* onMars.app */;
+			productReference = 170DA10A26106B4E00897550 /* onMars.app */;
 			productType = "com.apple.product-type.application";
 		};
-		170DA0D5261062E100897550 /* onMarsTests */ = {
+		170DA11E26106B5100897550 /* onMarsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170DA0EB261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */;
+			buildConfigurationList = 170DA13426106B5100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */;
 			buildPhases = (
-				170DA0D2261062E100897550 /* Sources */,
-				170DA0D3261062E100897550 /* Frameworks */,
-				170DA0D4261062E100897550 /* Resources */,
+				170DA11B26106B5100897550 /* Sources */,
+				170DA11C26106B5100897550 /* Frameworks */,
+				170DA11D26106B5100897550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				170DA0D8261062E100897550 /* PBXTargetDependency */,
+				170DA12126106B5100897550 /* PBXTargetDependency */,
 			);
 			name = onMarsTests;
 			productName = onMarsTests;
-			productReference = 170DA0D6261062E100897550 /* onMarsTests.xctest */;
+			productReference = 170DA11F26106B5100897550 /* onMarsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		170DA0E0261062E100897550 /* onMarsUITests */ = {
+		170DA12926106B5100897550 /* onMarsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 170DA0EE261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */;
+			buildConfigurationList = 170DA13726106B5100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */;
 			buildPhases = (
-				170DA0DD261062E100897550 /* Sources */,
-				170DA0DE261062E100897550 /* Frameworks */,
-				170DA0DF261062E100897550 /* Resources */,
+				170DA12626106B5100897550 /* Sources */,
+				170DA12726106B5100897550 /* Frameworks */,
+				170DA12826106B5100897550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				170DA0E3261062E100897550 /* PBXTargetDependency */,
+				170DA12C26106B5100897550 /* PBXTargetDependency */,
 			);
 			name = onMarsUITests;
 			productName = onMarsUITests;
-			productReference = 170DA0E1261062E100897550 /* onMarsUITests.xctest */;
+			productReference = 170DA12A26106B5100897550 /* onMarsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -288,16 +197,16 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					170DA0C0261062DE00897550 = {
+					170DA10926106B4E00897550 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					170DA0D5261062E100897550 = {
+					170DA11E26106B5100897550 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 170DA0C0261062DE00897550;
+						TestTargetID = 170DA10926106B4E00897550;
 					};
-					170DA0E0261062E100897550 = {
+					170DA12926106B5100897550 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 170DA0C0261062DE00897550;
+						TestTargetID = 170DA10926106B4E00897550;
 					};
 				};
 			};
@@ -314,32 +223,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				170DA0C0261062DE00897550 /* onMars */,
-				170DA0D5261062E100897550 /* onMarsTests */,
-				170DA0E0261062E100897550 /* onMarsUITests */,
+				170DA10926106B4E00897550 /* onMars */,
+				170DA11E26106B5100897550 /* onMarsTests */,
+				170DA12926106B5100897550 /* onMarsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		170DA0BF261062DE00897550 /* Resources */ = {
+		170DA10826106B4E00897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170DA0CB261062E000897550 /* Preview Assets.xcassets in Resources */,
-				170DA0F52610632100897550 /* Assets.xcassets in Resources */,
-				170DA0C8261062E000897550 /* Assets.xcassets in Resources */,
+				170DA15E26106D2900897550 /* Assets.xcassets in Resources */,
+				170DA11426106B5100897550 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0D4261062E100897550 /* Resources */ = {
+		170DA11D26106B5100897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0DF261062E100897550 /* Resources */ = {
+		170DA12826106B5100897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,45 +257,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		170DA0BD261062DE00897550 /* Sources */ = {
+		170DA10626106B4E00897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170DA0CD261062E000897550 /* Persistence.swift in Sources */,
-				170DA0C6261062DE00897550 /* ContentView.swift in Sources */,
-				170DA0C4261062DE00897550 /* onMarsApp.swift in Sources */,
-				170DA0D0261062E000897550 /* onMars.xcdatamodeld in Sources */,
+				170DA14026106BBA00897550 /* GameScene.swift in Sources */,
+				170DA14A26106C7400897550 /* MotionManager.swift in Sources */,
+				170DA11626106B5100897550 /* Persistence.swift in Sources */,
+				170DA10F26106B4E00897550 /* ContentView.swift in Sources */,
+				170DA10D26106B4E00897550 /* onMarsApp.swift in Sources */,
+				170DA11926106B5100897550 /* onMars.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0D2261062E100897550 /* Sources */ = {
+		170DA11B26106B5100897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170DA0DB261062E100897550 /* onMarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		170DA0DD261062E100897550 /* Sources */ = {
+		170DA12626106B5100897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170DA0E6261062E100897550 /* onMarsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		170DA0D8261062E100897550 /* PBXTargetDependency */ = {
+		170DA12126106B5100897550 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 170DA0C0261062DE00897550 /* onMars */;
-			targetProxy = 170DA0D7261062E100897550 /* PBXContainerItemProxy */;
+			target = 170DA10926106B4E00897550 /* onMars */;
+			targetProxy = 170DA12026106B5100897550 /* PBXContainerItemProxy */;
 		};
-		170DA0E3261062E100897550 /* PBXTargetDependency */ = {
+		170DA12C26106B5100897550 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 170DA0C0261062DE00897550 /* onMars */;
-			targetProxy = 170DA0E2261062E100897550 /* PBXContainerItemProxy */;
+			target = 170DA10926106B4E00897550 /* onMars */;
+			targetProxy = 170DA12B26106B5100897550 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,7 +415,7 @@
 			};
 			name = Release;
 		};
-		170DA0E9261062E100897550 /* Debug */ = {
+		170DA13226106B5100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -526,11 +434,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		170DA0EA261062E100897550 /* Release */ = {
+		170DA13326106B5100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -549,12 +457,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		170DA0EC261062E100897550 /* Debug */ = {
+		170DA13526106B5100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -577,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		170DA0ED261062E100897550 /* Release */ = {
+		170DA13626106B5100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -601,7 +509,7 @@
 			};
 			name = Release;
 		};
-		170DA0EF261062E100897550 /* Debug */ = {
+		170DA13826106B5100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -623,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		170DA0F0261062E100897550 /* Release */ = {
+		170DA13926106B5100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -658,29 +566,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		170DA0E8261062E100897550 /* Build configuration list for PBXNativeTarget "onMars" */ = {
+		170DA13126106B5100897550 /* Build configuration list for PBXNativeTarget "onMars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170DA0E9261062E100897550 /* Debug */,
-				170DA0EA261062E100897550 /* Release */,
+				170DA13226106B5100897550 /* Debug */,
+				170DA13326106B5100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		170DA0EB261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */ = {
+		170DA13426106B5100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170DA0EC261062E100897550 /* Debug */,
-				170DA0ED261062E100897550 /* Release */,
+				170DA13526106B5100897550 /* Debug */,
+				170DA13626106B5100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		170DA0EE261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */ = {
+		170DA13726106B5100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				170DA0EF261062E100897550 /* Debug */,
-				170DA0F0261062E100897550 /* Release */,
+				170DA13826106B5100897550 /* Debug */,
+				170DA13926106B5100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -688,22 +596,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */ = {
+		170DA11726106B5100897550 /* onMars.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				170040FF25FA3A5A00E25418 /* Shared.xcdatamodel */,
+				170DA11826106B5100897550 /* onMars.xcdatamodel */,
 			);
-			currentVersion = 170040FF25FA3A5A00E25418 /* Shared.xcdatamodel */;
-			path = onMars.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		170DA0CE261062E000897550 /* onMars.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				170DA0CF261062E000897550 /* onMars.xcdatamodel */,
-			);
-			currentVersion = 170DA0CF261062E000897550 /* onMars.xcdatamodel */;
+			currentVersion = 170DA11826106B5100897550 /* onMars.xcdatamodel */;
 			path = onMars.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
