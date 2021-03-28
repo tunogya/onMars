@@ -7,36 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1700411D25FA3A5E00E25418 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700411C25FA3A5E00E25418 /* Tests_iOS.swift */; };
-		1700412825FA3A5E00E25418 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700412725FA3A5E00E25418 /* Tests_macOS.swift */; };
-		1700412A25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */; };
-		1700412B25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */; };
-		1700412C25FA3A5E00E25418 /* onMarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410025FA3A5A00E25418 /* onMarsApp.swift */; };
-		1700412D25FA3A5E00E25418 /* onMarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410025FA3A5A00E25418 /* onMarsApp.swift */; };
-		1700412E25FA3A5E00E25418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410125FA3A5A00E25418 /* ContentView.swift */; };
-		1700412F25FA3A5E00E25418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410125FA3A5A00E25418 /* ContentView.swift */; };
-		1700413025FA3A5E00E25418 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410225FA3A5A00E25418 /* Persistence.swift */; };
-		1700413125FA3A5E00E25418 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700410225FA3A5A00E25418 /* Persistence.swift */; };
-		1700413225FA3A5E00E25418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1700410325FA3A5E00E25418 /* Assets.xcassets */; };
-		1700413325FA3A5E00E25418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1700410325FA3A5E00E25418 /* Assets.xcassets */; };
-		1700415C25FA417D00E25418 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700415B25FA417D00E25418 /* GameScene.swift */; };
-		1700415D25FA417D00E25418 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700415B25FA417D00E25418 /* GameScene.swift */; };
+		170DA0C4261062DE00897550 /* onMarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0C3261062DE00897550 /* onMarsApp.swift */; };
+		170DA0C6261062DE00897550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0C5261062DE00897550 /* ContentView.swift */; };
+		170DA0C8261062E000897550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0C7261062E000897550 /* Assets.xcassets */; };
+		170DA0CB261062E000897550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0CA261062E000897550 /* Preview Assets.xcassets */; };
+		170DA0CD261062E000897550 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0CC261062E000897550 /* Persistence.swift */; };
+		170DA0D0261062E000897550 /* onMars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0CE261062E000897550 /* onMars.xcdatamodeld */; };
+		170DA0DB261062E100897550 /* onMarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0DA261062E100897550 /* onMarsTests.swift */; };
+		170DA0E6261062E100897550 /* onMarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DA0E5261062E100897550 /* onMarsUITests.swift */; };
+		170DA0F52610632100897550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DA0F42610632100897550 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1700411925FA3A5E00E25418 /* PBXContainerItemProxy */ = {
+		170DA0D7261062E100897550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 170040F925FA3A5A00E25418 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1700410725FA3A5E00E25418;
-			remoteInfo = "onMars (iOS)";
+			remoteGlobalIDString = 170DA0C0261062DE00897550;
+			remoteInfo = onMars;
 		};
-		1700412425FA3A5E00E25418 /* PBXContainerItemProxy */ = {
+		170DA0E2261062E100897550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 170040F925FA3A5A00E25418 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1700410F25FA3A5E00E25418;
-			remoteInfo = "onMars (macOS)";
+			remoteGlobalIDString = 170DA0C0261062DE00897550;
+			remoteInfo = onMars;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,44 +40,49 @@
 		1700410025FA3A5A00E25418 /* onMarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsApp.swift; sourceTree = "<group>"; };
 		1700410125FA3A5A00E25418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1700410225FA3A5A00E25418 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1700410325FA3A5E00E25418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1700410825FA3A5E00E25418 /* onMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1700410B25FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1700411025FA3A5E00E25418 /* onMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1700411225FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1700411325FA3A5E00E25418 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		1700411825FA3A5E00E25418 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1700411C25FA3A5E00E25418 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		1700411E25FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1700412325FA3A5E00E25418 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1700412725FA3A5E00E25418 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1700412925FA3A5E00E25418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1700415B25FA417D00E25418 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		170DA0B62610605600897550 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		170DA0C1261062DE00897550 /* onMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DA0C3261062DE00897550 /* onMarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsApp.swift; sourceTree = "<group>"; };
+		170DA0C5261062DE00897550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		170DA0C7261062E000897550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170DA0CA261062E000897550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		170DA0CC261062E000897550 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		170DA0CF261062E000897550 /* onMars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = onMars.xcdatamodel; sourceTree = "<group>"; };
+		170DA0D1261062E000897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DA0D6261062E100897550 /* onMarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DA0DA261062E100897550 /* onMarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsTests.swift; sourceTree = "<group>"; };
+		170DA0DC261062E100897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DA0E1261062E100897550 /* onMarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onMarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DA0E5261062E100897550 /* onMarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMarsUITests.swift; sourceTree = "<group>"; };
+		170DA0E7261062E100897550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DA0F42610632100897550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E7F9CD26103216004BD40A /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1700410525FA3A5E00E25418 /* Frameworks */ = {
+		170DA0BE261062DE00897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700410D25FA3A5E00E25418 /* Frameworks */ = {
+		170DA0D3261062E100897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700411525FA3A5E00E25418 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1700412025FA3A5E00E25418 /* Frameworks */ = {
+		170DA0DE261062E100897550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -100,6 +100,9 @@
 				1700411125FA3A5E00E25418 /* macOS */,
 				1700411B25FA3A5E00E25418 /* Tests iOS */,
 				1700412625FA3A5E00E25418 /* Tests macOS */,
+				170DA0C2261062DE00897550 /* onMars */,
+				170DA0D9261062E100897550 /* onMarsTests */,
+				170DA0E4261062E100897550 /* onMarsUITests */,
 				1700410925FA3A5E00E25418 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,13 +110,15 @@
 		170040FD25FA3A5A00E25418 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				170DA0F42610632100897550 /* Assets.xcassets */,
+				17E7F9CC26103200004BD40A /* Controller */,
 				1700415625FA3BE900E25418 /* Sounds */,
 				1700410025FA3A5A00E25418 /* onMarsApp.swift */,
 				1700410125FA3A5A00E25418 /* ContentView.swift */,
 				1700415B25FA417D00E25418 /* GameScene.swift */,
 				1700410225FA3A5A00E25418 /* Persistence.swift */,
-				1700410325FA3A5E00E25418 /* Assets.xcassets */,
 				170040FE25FA3A5A00E25418 /* onMars.xcdatamodeld */,
+				170DA0B62610605600897550 /* Launch Screen.storyboard */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -121,10 +126,9 @@
 		1700410925FA3A5E00E25418 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1700410825FA3A5E00E25418 /* onMars.app */,
-				1700411025FA3A5E00E25418 /* onMars.app */,
-				1700411825FA3A5E00E25418 /* Tests iOS.xctest */,
-				1700412325FA3A5E00E25418 /* Tests macOS.xctest */,
+				170DA0C1261062DE00897550 /* onMars.app */,
+				170DA0D6261062E100897550 /* onMarsTests.xctest */,
+				170DA0E1261062E100897550 /* onMarsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,77 +175,108 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		170DA0C2261062DE00897550 /* onMars */ = {
+			isa = PBXGroup;
+			children = (
+				170DA0C3261062DE00897550 /* onMarsApp.swift */,
+				170DA0C5261062DE00897550 /* ContentView.swift */,
+				170DA0C7261062E000897550 /* Assets.xcassets */,
+				170DA0CC261062E000897550 /* Persistence.swift */,
+				170DA0D1261062E000897550 /* Info.plist */,
+				170DA0CE261062E000897550 /* onMars.xcdatamodeld */,
+				170DA0C9261062E000897550 /* Preview Content */,
+			);
+			path = onMars;
+			sourceTree = "<group>";
+		};
+		170DA0C9261062E000897550 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				170DA0CA261062E000897550 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		170DA0D9261062E100897550 /* onMarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				170DA0DA261062E100897550 /* onMarsTests.swift */,
+				170DA0DC261062E100897550 /* Info.plist */,
+			);
+			path = onMarsTests;
+			sourceTree = "<group>";
+		};
+		170DA0E4261062E100897550 /* onMarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				170DA0E5261062E100897550 /* onMarsUITests.swift */,
+				170DA0E7261062E100897550 /* Info.plist */,
+			);
+			path = onMarsUITests;
+			sourceTree = "<group>";
+		};
+		17E7F9CC26103200004BD40A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17E7F9CD26103216004BD40A /* MotionManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1700410725FA3A5E00E25418 /* onMars (iOS) */ = {
+		170DA0C0261062DE00897550 /* onMars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1700413625FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "onMars (iOS)" */;
+			buildConfigurationList = 170DA0E8261062E100897550 /* Build configuration list for PBXNativeTarget "onMars" */;
 			buildPhases = (
-				1700410425FA3A5E00E25418 /* Sources */,
-				1700410525FA3A5E00E25418 /* Frameworks */,
-				1700410625FA3A5E00E25418 /* Resources */,
+				170DA0BD261062DE00897550 /* Sources */,
+				170DA0BE261062DE00897550 /* Frameworks */,
+				170DA0BF261062DE00897550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "onMars (iOS)";
-			productName = "onMars (iOS)";
-			productReference = 1700410825FA3A5E00E25418 /* onMars.app */;
+			name = onMars;
+			productName = onMars;
+			productReference = 170DA0C1261062DE00897550 /* onMars.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1700410F25FA3A5E00E25418 /* onMars (macOS) */ = {
+		170DA0D5261062E100897550 /* onMarsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1700413925FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "onMars (macOS)" */;
+			buildConfigurationList = 170DA0EB261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */;
 			buildPhases = (
-				1700410C25FA3A5E00E25418 /* Sources */,
-				1700410D25FA3A5E00E25418 /* Frameworks */,
-				1700410E25FA3A5E00E25418 /* Resources */,
+				170DA0D2261062E100897550 /* Sources */,
+				170DA0D3261062E100897550 /* Frameworks */,
+				170DA0D4261062E100897550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				170DA0D8261062E100897550 /* PBXTargetDependency */,
 			);
-			name = "onMars (macOS)";
-			productName = "onMars (macOS)";
-			productReference = 1700411025FA3A5E00E25418 /* onMars.app */;
-			productType = "com.apple.product-type.application";
+			name = onMarsTests;
+			productName = onMarsTests;
+			productReference = 170DA0D6261062E100897550 /* onMarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1700411725FA3A5E00E25418 /* Tests iOS */ = {
+		170DA0E0261062E100897550 /* onMarsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1700413C25FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 170DA0EE261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */;
 			buildPhases = (
-				1700411425FA3A5E00E25418 /* Sources */,
-				1700411525FA3A5E00E25418 /* Frameworks */,
-				1700411625FA3A5E00E25418 /* Resources */,
+				170DA0DD261062E100897550 /* Sources */,
+				170DA0DE261062E100897550 /* Frameworks */,
+				170DA0DF261062E100897550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1700411A25FA3A5E00E25418 /* PBXTargetDependency */,
+				170DA0E3261062E100897550 /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 1700411825FA3A5E00E25418 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		1700412225FA3A5E00E25418 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1700413F25FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				1700411F25FA3A5E00E25418 /* Sources */,
-				1700412025FA3A5E00E25418 /* Frameworks */,
-				1700412125FA3A5E00E25418 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1700412525FA3A5E00E25418 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 1700412325FA3A5E00E25418 /* Tests macOS.xctest */;
+			name = onMarsUITests;
+			productName = onMarsUITests;
+			productReference = 170DA0E1261062E100897550 /* onMarsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,19 +288,16 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					1700410725FA3A5E00E25418 = {
+					170DA0C0261062DE00897550 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					1700410F25FA3A5E00E25418 = {
+					170DA0D5261062E100897550 = {
 						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 170DA0C0261062DE00897550;
 					};
-					1700411725FA3A5E00E25418 = {
+					170DA0E0261062E100897550 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1700410725FA3A5E00E25418;
-					};
-					1700412225FA3A5E00E25418 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1700410F25FA3A5E00E25418;
+						TestTargetID = 170DA0C0261062DE00897550;
 					};
 				};
 			};
@@ -282,39 +314,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1700410725FA3A5E00E25418 /* onMars (iOS) */,
-				1700410F25FA3A5E00E25418 /* onMars (macOS) */,
-				1700411725FA3A5E00E25418 /* Tests iOS */,
-				1700412225FA3A5E00E25418 /* Tests macOS */,
+				170DA0C0261062DE00897550 /* onMars */,
+				170DA0D5261062E100897550 /* onMarsTests */,
+				170DA0E0261062E100897550 /* onMarsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1700410625FA3A5E00E25418 /* Resources */ = {
+		170DA0BF261062DE00897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1700413225FA3A5E00E25418 /* Assets.xcassets in Resources */,
+				170DA0CB261062E000897550 /* Preview Assets.xcassets in Resources */,
+				170DA0F52610632100897550 /* Assets.xcassets in Resources */,
+				170DA0C8261062E000897550 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700410E25FA3A5E00E25418 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1700413325FA3A5E00E25418 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1700411625FA3A5E00E25418 /* Resources */ = {
+		170DA0D4261062E100897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700412125FA3A5E00E25418 /* Resources */ = {
+		170DA0DF261062E100897550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,58 +349,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1700410425FA3A5E00E25418 /* Sources */ = {
+		170DA0BD261062DE00897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1700415C25FA417D00E25418 /* GameScene.swift in Sources */,
-				1700412A25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */,
-				1700413025FA3A5E00E25418 /* Persistence.swift in Sources */,
-				1700412C25FA3A5E00E25418 /* onMarsApp.swift in Sources */,
-				1700412E25FA3A5E00E25418 /* ContentView.swift in Sources */,
+				170DA0CD261062E000897550 /* Persistence.swift in Sources */,
+				170DA0C6261062DE00897550 /* ContentView.swift in Sources */,
+				170DA0C4261062DE00897550 /* onMarsApp.swift in Sources */,
+				170DA0D0261062E000897550 /* onMars.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700410C25FA3A5E00E25418 /* Sources */ = {
+		170DA0D2261062E100897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1700415D25FA417D00E25418 /* GameScene.swift in Sources */,
-				1700412B25FA3A5E00E25418 /* onMars.xcdatamodeld in Sources */,
-				1700413125FA3A5E00E25418 /* Persistence.swift in Sources */,
-				1700412D25FA3A5E00E25418 /* onMarsApp.swift in Sources */,
-				1700412F25FA3A5E00E25418 /* ContentView.swift in Sources */,
+				170DA0DB261062E100897550 /* onMarsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1700411425FA3A5E00E25418 /* Sources */ = {
+		170DA0DD261062E100897550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1700411D25FA3A5E00E25418 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1700411F25FA3A5E00E25418 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1700412825FA3A5E00E25418 /* Tests_macOS.swift in Sources */,
+				170DA0E6261062E100897550 /* onMarsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1700411A25FA3A5E00E25418 /* PBXTargetDependency */ = {
+		170DA0D8261062E100897550 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1700410725FA3A5E00E25418 /* onMars (iOS) */;
-			targetProxy = 1700411925FA3A5E00E25418 /* PBXContainerItemProxy */;
+			target = 170DA0C0261062DE00897550 /* onMars */;
+			targetProxy = 170DA0D7261062E100897550 /* PBXContainerItemProxy */;
 		};
-		1700412525FA3A5E00E25418 /* PBXTargetDependency */ = {
+		170DA0E3261062E100897550 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1700410F25FA3A5E00E25418 /* onMars (macOS) */;
-			targetProxy = 1700412425FA3A5E00E25418 /* PBXContainerItemProxy */;
+			target = 170DA0C0261062DE00897550 /* onMars */;
+			targetProxy = 170DA0E2261062E100897550 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,7 +444,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +499,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -495,44 +507,46 @@
 			};
 			name = Release;
 		};
-		1700413725FA3A5E00E25418 /* Debug */ = {
+		170DA0E9261062E100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"onMars/Preview Content\"";
 				DEVELOPMENT_TEAM = GDG2N58DA2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = onMars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMars;
-				PRODUCT_NAME = onMars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1700413825FA3A5E00E25418 /* Release */ = {
+		170DA0EA261062E100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"onMars/Preview Content\"";
 				DEVELOPMENT_TEAM = GDG2N58DA2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = onMars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMars;
-				PRODUCT_NAME = onMars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -540,140 +554,95 @@
 			};
 			name = Release;
 		};
-		1700413A25FA3A5E00E25418 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GDG2N58DA2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMars;
-				PRODUCT_NAME = onMars;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1700413B25FA3A5E00E25418 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GDG2N58DA2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMars;
-				PRODUCT_NAME = onMars;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		1700413D25FA3A5E00E25418 /* Debug */ = {
+		170DA0EC261062E100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDG2N58DA2;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = onMarsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wakanda.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "onMars (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onMars.app/onMars";
 			};
 			name = Debug;
 		};
-		1700413E25FA3A5E00E25418 /* Release */ = {
+		170DA0ED261062E100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GDG2N58DA2;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = onMarsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wakanda.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "onMars (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onMars.app/onMars";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1700414025FA3A5E00E25418 /* Debug */ = {
+		170DA0EF261062E100897550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GDG2N58DA2;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				INFOPLIST_FILE = onMarsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wakanda.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "onMars (macOS)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onMars;
 			};
 			name = Debug;
 		};
-		1700414125FA3A5E00E25418 /* Release */ = {
+		170DA0F0261062E100897550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GDG2N58DA2;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				INFOPLIST_FILE = onMarsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wakanda.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakanda.onMarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "onMars (macOS)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onMars;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -689,38 +658,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1700413625FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "onMars (iOS)" */ = {
+		170DA0E8261062E100897550 /* Build configuration list for PBXNativeTarget "onMars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1700413725FA3A5E00E25418 /* Debug */,
-				1700413825FA3A5E00E25418 /* Release */,
+				170DA0E9261062E100897550 /* Debug */,
+				170DA0EA261062E100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1700413925FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "onMars (macOS)" */ = {
+		170DA0EB261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1700413A25FA3A5E00E25418 /* Debug */,
-				1700413B25FA3A5E00E25418 /* Release */,
+				170DA0EC261062E100897550 /* Debug */,
+				170DA0ED261062E100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1700413C25FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		170DA0EE261062E100897550 /* Build configuration list for PBXNativeTarget "onMarsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1700413D25FA3A5E00E25418 /* Debug */,
-				1700413E25FA3A5E00E25418 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1700413F25FA3A5E00E25418 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1700414025FA3A5E00E25418 /* Debug */,
-				1700414125FA3A5E00E25418 /* Release */,
+				170DA0EF261062E100897550 /* Debug */,
+				170DA0F0261062E100897550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -734,6 +694,16 @@
 				170040FF25FA3A5A00E25418 /* Shared.xcdatamodel */,
 			);
 			currentVersion = 170040FF25FA3A5A00E25418 /* Shared.xcdatamodel */;
+			path = onMars.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		170DA0CE261062E000897550 /* onMars.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				170DA0CF261062E000897550 /* onMars.xcdatamodel */,
+			);
+			currentVersion = 170DA0CF261062E000897550 /* onMars.xcdatamodel */;
 			path = onMars.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
