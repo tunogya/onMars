@@ -22,10 +22,25 @@ struct ContentView: View {
     
     var debug: some View  {
         VStack {
-            Text("Magnetometer Data")
-            Text("X: \(motion.x)")
-            Text("Y: \(motion.y)")
-            Text("Z: \(motion.z)")
+            VStack{
+                Text("Magnetometer Data")
+                Text("X: \(motion.magnetData.x)")
+                Text("Y: \(motion.magnetData.y)")
+                Text("Z: \(motion.magnetData.z)")
+            }
+            VStack {
+                Text("Gyro  Data")
+                Text("X: \(motion.gyroData.x)")
+                Text("Y: \(motion.gyroData.y)")
+                Text("Z: \(motion.gyroData.z)")
+            }
+           
+            VStack {
+                Text("ACC  Data")
+                Text("X: \(motion.accData.x)")
+                Text("Y: \(motion.accData.y)")
+                Text("Z: \(motion.accData.z)")
+            }
         }
     }
     
